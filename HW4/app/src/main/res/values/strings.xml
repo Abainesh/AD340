@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <string name="app_bar_settings">Setting</string>
+    <string name="fragment_main">fragment main</string>
+    <string name="fragment_second">fragment second </string>
+    <string name="Next">next </string>
+    <string name="app_bar_pageview">Search</string>
+    <string name="nav_open_drawer">Open drawer</string>
+    <string name="nav_close_drawer">Close drawer</string>
+
+</resources>
