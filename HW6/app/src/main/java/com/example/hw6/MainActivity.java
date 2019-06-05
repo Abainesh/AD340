@@ -65,6 +65,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 JSONArray cams = currentImage.getJSONArray("Cameras");
 
                 JSONObject cameraOne = cams.getJSONObject(0);
+                JSONArray Coordinates = currentImage.getJSONArray("PointCoordinate");
+
+                double longitude = Coordinates.getDouble(0);
+                double latitude = Coordinates.getDouble(1);
+
                 String id = cameraOne.getString("Id");
                 String description = cameraOne.getString("Description");
                 String url = cameraOne.getString("ImageUrl");
