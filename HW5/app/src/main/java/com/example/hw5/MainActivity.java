@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     //Create toast message to get proper value from user-error checking
                     Toast.makeText(view.getContext(), "Please enter numbers properly", Toast.LENGTH_SHORT).show();
-                }
+            }
             }
         });
 
